@@ -1,0 +1,132 @@
+.main_div{
+    height:600px;
+    width:500px;
+    border:2px solid black;
+    margin-left:27%;
+    margin-top:7%;
+    background:beige;
+}
+.center{
+    height:90px;
+    width:85px;
+    background:lightgreen;
+    border-radius: 50%;
+    margin-top:170px;
+    margin-left:195px;
+    position:absolute;
+    border:3px solid black;
+    
+}
+ .wings{
+    position:relative;
+    height:90px;
+    width:56px;
+} 
+.w1{
+    position:absolute;
+    height: 100px;
+    width: 35px;
+    border-radius: 40%;
+    background:lightgreen;
+    margin-left: 22px;
+    margin-top:-105px;
+    margin-bottom: 1980px;
+    border:3px solid black;
+    rotate: 182deg;
+}
+ .w2{
+    position:absolute;
+     height :100px;
+     width:35px;
+     background:lightgreen;
+     margin-left: -62px;
+     margin-top: 35px;
+     border-radius: 40%;
+     border:3px solid black;
+     rotate:62deg;
+} 
+.w3{
+position:absolute;
+    height: 100px;
+    width: 35px;
+    border-radius: 40%;
+    background:lightgreen;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+   border:3px solid black;
+    rotate: 127deg;
+}
+    
+.stand{
+    position:absolute;
+    border:3px solid black;
+    bottom:217px;
+    left: 41.5%;
+    transform: translateX(-50%);
+    width:35px;
+    height:220px;
+    background: lightgreen;
+    border-radius: 10px;
+}
+.btn{
+    height:50px;
+    width:67px;
+}
+#btn1{
+     height:35px;
+    width:35px;
+    border-radius:40px;
+    background:rgb(255, 255, 255);
+     margin-left: 0px;
+     margin-top: 20px;
+}
+
+#btn2{
+     height:35px;
+    width:35px;
+    border-radius:40px;
+    background: white;
+    margin-left: 0px;
+     margin-top: 2px;
+}
+#btn3{
+    height: 35px;
+    width:35px;
+    border-radius:40px;
+    background: white;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+#btn4{
+    height: 35px;
+    width:35px;
+    border-radius:40px;
+    background: white;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+#btn5{
+    height: 35px;
+    width:35px;
+    border-radius:40px;
+    background: white;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+.base{
+    position:absolute;
+    border:3px solid black;
+    bottom:163px;
+    left: 41.5%;
+    transform: translateX(-50%);
+    width:100px;
+    height:50px;
+    background: lightgreen;
+    border-radius: 50px;
+}
+@keyframes rotatefan
+     {
+       0%{transform: rotate(0deg);}
+       100%{transform: rotate(360deg);}
+    }
