@@ -61,7 +61,7 @@ position:absolute;
 .stand{
     position:absolute;
     border:3px solid black;
-    bottom:190px;
+    bottom:100px;
     left: 41.5%;
     transform: translateX(-50%);
     width:35px;
@@ -130,5 +130,6 @@ position:absolute;
        0%{transform: rotate(0deg);}
        100%{transform: rotate(360deg);}
     }
+
 
 
